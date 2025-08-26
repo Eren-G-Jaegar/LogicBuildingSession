@@ -6,8 +6,8 @@ package day_02;
 public class q01_LCM {
 	public static void main(String[] args) {
 
-		int n1 = 18;
-		int n2 = 36;
+		int n1 = 3;
+		int n2 = 5;
 		int res = n1 - n2;
 		int gn, sn, gcd = 0;
 		if (res < 0) {
