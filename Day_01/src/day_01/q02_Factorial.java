@@ -13,11 +13,11 @@ public class q02_Factorial {
 		System.out.println("Factorial of " + num + " is " + fact);
 
 		// End to Start
-//		while (num > 0) {
-//			fact = fact * num;
-//			num--;
-//		}
-//		System.out.println("Factorial of " + n + " is " + fact);
+		while (num > 0) {
+			fact = fact * num;
+			num--;
+		}
+		System.out.println("Factorial of " + n + " is " + fact);
 
 	}
 }
