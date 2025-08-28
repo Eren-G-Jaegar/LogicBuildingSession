@@ -5,11 +5,14 @@ public class q05_PerfectNumber {
 
 		int num = 6;
 		int sum = 0;
+		int rem = 0;
 
-		for (int i = 1; i <= num/2; i++) {
-			int rem = num % i;
+		for (int i = 2; i <= num; i++) {
+			rem = num % i;
+
 			while (rem == 0) {
 				sum = sum + i;
+
 			}
 		}
 
