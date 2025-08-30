@@ -5,7 +5,6 @@ public class q09_BinaryToDecimal {
 
 		int bi = 0010;
 		int decNum = 0;
-		int n = bi;
 		int power = 1;
 
 		while (bi != 0) {
