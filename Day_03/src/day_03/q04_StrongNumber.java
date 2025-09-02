@@ -22,9 +22,9 @@ public class q04_StrongNumber {
 	public static void main(String[] args) {
 
 		Factorial obj1 = new Factorial();
-		System.out.println(obj1.calFact(0));
+//		System.out.println(obj1.calFact(0));
 
-		int num = 145;
+		int num = 40805;
 		int n = num;
 		int rem = 0;
 		int fact = 0;

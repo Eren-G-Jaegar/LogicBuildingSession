@@ -9,18 +9,20 @@ public class q09_DaysToYearsWeeksDays {
 		int days = 0;
 		int rem;
 
+		System.out.println("Total number of days : " + totalDays);
+
 		years = totalDays / 365;
-		System.out.println(years);
+		System.out.println("years : " + years);
 
 		rem = totalDays % 365;
 
 		weeks = rem / 7;
-		System.out.println(weeks);
+		System.out.println("weeks : " + weeks);
 
 		rem = rem % 7;
 
 		days = rem;
-		System.out.println(days);
+		System.out.println("days : " + days);
 
 	}
 }

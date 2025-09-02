@@ -8,14 +8,15 @@ public class q08_FindAllPairsOfElementsInArrayWhoseSumEqualsGivenNumber {
 		int sum = 0;
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length - 1; j++) {
-				sum = arr[j] + arr[j + 1];
+				sum = arr[i] + arr[j];
+				if (arr[j] == arr[i]) {
+					continue;
+				}
 
 				if (sum == num) {
 					System.out.println(arr[j] + " & " + arr[j + 1] + " = " + num);
 				}
-
 			}
 		}
-
 	}
 }

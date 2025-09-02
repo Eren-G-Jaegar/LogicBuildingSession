@@ -19,7 +19,7 @@ public class q02_SquareRoot {
 		if (sqRoot) {
 			System.out.println(" Square root of " + num + " is " + root);
 		} else {
-			System.out.println("Square root of " + num + " doesn't exist.");
+			System.out.println("Integer as a Square root of " + num + " doesn't exist.");
 		}
 
 	}

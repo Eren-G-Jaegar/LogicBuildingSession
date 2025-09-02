@@ -17,7 +17,17 @@ public class q05_FindAMissingNumberInAnArray {
 		if (sumOf100 == sum) {
 			System.out.println("No number is missing form given Array.");
 		} else {
-			System.out.println(sumOf100 - sum);
+			System.out.println(sumOf100 - sum + " is missing form given array.");
 		}
+
+		// Inefficient way of finding a missing number from
+		// given array of 100 elements.
+
+//		for (int i = 1; i <= 100; i++) {
+//			if (arr[i] + 1 != arr[i + 1]) {
+//				System.out.println(arr[i] + 1 + " is the missing number in given array.");
+//			}
+//		}
+
 	}
 }

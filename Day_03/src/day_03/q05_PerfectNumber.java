@@ -1,3 +1,7 @@
+// A number equal to sum of
+// its proper divisors
+// 6=1,2,3
+
 package day_03;
 
 public class q05_PerfectNumber {
@@ -5,15 +9,12 @@ public class q05_PerfectNumber {
 
 		int num = 6;
 		int sum = 0;
-		int rem = 0;
 
-		for (int i = 2; i <= num; i++) {
-			rem = num % i;
-
-			while (rem == 0) {
+		for (int i = 1; i <= num / 2; i++) {
+			if (num % i == 0) {
 				sum = sum + i;
-
 			}
+
 		}
 
 		if (sum == num) {
