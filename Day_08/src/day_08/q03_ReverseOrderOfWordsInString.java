@@ -32,5 +32,9 @@ public class q03_ReverseOrderOfWordsInString {
 				obj.reverseChar(ch, start, end);
 			}
 		}
+
+		for (int i = 0; i < ch.length; i++) { // Printing given Sentence
+			System.out.print(ch[i]);
+		}
 	}
 }
