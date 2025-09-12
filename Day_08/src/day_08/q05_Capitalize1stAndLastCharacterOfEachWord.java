@@ -3,7 +3,7 @@ package day_08;
 public class q05_Capitalize1stAndLastCharacterOfEachWord {
 
 	char upperCase(char ch) {
-		if (ch >= 'a' || ch <= 'z') {
+		if (ch >= 'a' && ch <= 'z') {
 			int num = ch;
 			ch = (char) (num - 32);
 		}

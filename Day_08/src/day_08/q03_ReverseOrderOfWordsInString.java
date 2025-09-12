@@ -33,7 +33,7 @@ public class q03_ReverseOrderOfWordsInString {
 			}
 		}
 
-		for (int i = 0; i < ch.length; i++) { // Printing given Sentence
+		for (int i = 0; i < ch.length; i++) { // Printing altered Sentence
 			System.out.print(ch[i]);
 		}
 	}

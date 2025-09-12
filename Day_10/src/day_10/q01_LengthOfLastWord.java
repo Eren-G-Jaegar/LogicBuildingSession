@@ -1,4 +1,4 @@
-package day_10;
+ package day_10;
 
 public class q01_LengthOfLastWord {
 	public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class q01_LengthOfLastWord {
 
 			if (str.charAt(i) == ' ') {
 				break;
-			}
+			} 
 			count++;
 		}
 		System.out.println(count);
