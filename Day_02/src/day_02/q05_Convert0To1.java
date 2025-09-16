@@ -8,7 +8,7 @@ public class q05_Convert0To1 {
 		int multiplier = 1;
 		int result = 0;
 
-		while (num > 0) {
+		while (num != 0) {
 			int digit = num % 10;
 			if (digit == 0) {
 				digit = 1;

@@ -3,8 +3,9 @@ package day_09;
 public class q09_IfStringContainsAnotherString {
 	public static void main(String[] args) {
 
-		String str = "qwerty";
-		String str1 = "qw";
+		String str = "abcdefg";
+		String str1 = "bc";
+		int n = 0;
 		int index = 0;
 		boolean containsChar = false;
 		boolean contains = false;
@@ -15,11 +16,13 @@ public class q09_IfStringContainsAnotherString {
 					containsChar = true;
 				}
 				if (containsChar) {
-					index = j + index;
+					index = index + 1;
 					containsChar = false;
+					n = n + 1;
+				}
+				if (n == str1.length()) {
 					break;
 				}
-
 			}
 			if (index == str1.length()) {
 				contains = true;

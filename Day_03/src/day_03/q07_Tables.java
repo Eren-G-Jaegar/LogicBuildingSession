@@ -8,7 +8,7 @@ public class q07_Tables {
 
 		for (int i = 1; i <= 10; i++) {
 			table = num * i;
-			System.out.println(num + "*" + i + "=" + table);
+			System.out.println(num + " * " + i + " = " + table);
 		}
 	}
 }

@@ -7,7 +7,7 @@ public class q06_PalindromeOrNot {
 
 		String str = "madam";
 		String rev = "";
-		boolean isPalin = false;
+		boolean isPalin = true;
 
 		for (int i = 0; i < str.length(); i++) {
 			rev = str.charAt(i) + rev;

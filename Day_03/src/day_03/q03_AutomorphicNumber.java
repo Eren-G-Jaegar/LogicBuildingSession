@@ -5,7 +5,7 @@ package day_03;
 public class q03_AutomorphicNumber {
 	public static void main(String[] args) {
 
-		int num = 25;
+		int num = 5;
 		int square = num * num;
 
 		if (square % 100 == num) {
